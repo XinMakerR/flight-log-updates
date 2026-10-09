@@ -1,0 +1,21 @@
+name: 功能建议
+description: 提出新的交互或功能想法。
+title: "[建议] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "此 Issue 对所有人公开。请勿上传个人记录、备份文件或含隐私的截图。"
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想解决什么问题？
+      placeholder: 请用通用情景描述。
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 希望如何改进？
+    validations:
+      required: true
