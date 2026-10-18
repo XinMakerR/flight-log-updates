@@ -1,15 +1,13 @@
-# 航班记录 · 更新与反馈
+# 律迹 · Android 更新与反馈
 
-这里仅发布 Android APK、版本说明和意见反馈入口；应用源代码与用户记录不在此仓库。
+这里发布「律迹」的 Android APK、更新说明和 SVG 图标。仓库不包含应用源码或个人记录。
 
 ## 下载与更新
 
-从 [Releases](https://github.com/XinMakerR/flight-log-updates/releases) 下载最新正式版本的 `flight-log-android.apk`。覆盖安装可保留原有记录。请勿卸载旧版或清除应用数据；首次安装后建议在 App 内导出完整备份。
+在 App 的“设置 → 更新”选择 GitHub 或 Gitee，检查后可直接下载并调用系统安装程序。也可从 [GitHub Releases](https://github.com/XinMakerR/flight-log-updates/releases) 下载最新正式版本的 `flight-log-android.apk`。文件名沿用旧版更新协议，应用显示名现为「律迹」。
+
+覆盖安装会保留本地记录；请勿卸载旧版。发布页同时提供 APK 的 `.sha256` 校验文件。应用 ID `app.quietdays` 和签名保持不变。
 
 ## 意见反馈
 
-请从 [Issues](https://github.com/XinMakerR/flight-log-updates/issues/new/choose) 选择“问题反馈”或“功能建议”。Issues 是公开的：不要上传个人记录、备份文件、含隐私的截图或其他敏感信息。App 不会自动上传数据。
-
-## 发布约定
-
-每个正式版本的标签与 App 版本名一致，如 `v0.5.5`。发布前验证 APK 包名为 `app.quietdays`、`versionCode` 单调递增、签名与上版兼容，并在草稿 Release 中上传固定名称的 `flight-log-android.apk` 后再发布。
+可通过 [GitHub Issues](https://github.com/XinMakerR/flight-log-updates/issues/new/choose) 反馈问题或建议，也可使用 App 设置页的 Gitee Issues、QQ 群入口。Issues 公开可见，请勿提交个人记录、导出文件或含隐私的截图。App 不会自动上传记录。
