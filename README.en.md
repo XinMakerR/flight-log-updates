@@ -29,4 +29,4 @@ Motion estimates describe movement of the **phone**, not a medical or fitness me
 Use [Gitee Issues](https://gitee.com/CM_acker/flight-log-updates/issues), [GitHub Issues](https://github.com/XinMakerR/flight-log-updates/issues/new/choose), or QQ group **922792074**. Issues are public: do not attach personal records, exports, or private screenshots.
 
 [中文说明](README.md)
-GitHub currently provides 0.6.1; check the actual version on the [Gitee mirror](https://gitee.com/CM_acker/flight-log-updates/releases). Full backup format 2 includes period data and remains compatible with older backups. See [period documentation](PERIODS.md).
+Version 0.6.1 is available on GitHub and the [Gitee mirror](https://gitee.com/CM_acker/flight-log-updates/releases/tag/v0.6.1), with matching APK SHA-256 checksums. Full backup format 2 includes period data and remains compatible with older backups. See [period documentation](PERIODS.md).
