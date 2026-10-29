@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" role="img" aria-labelledby="title desc">
+  <title id="title">律迹</title>
+  <desc id="desc">深青色圆角底上，一条浅色的流动节律线延伸至珊瑚色圆点。</desc>
+  <rect width="108" height="108" rx="27" fill="#264F52"/>
+  <path d="M24 62 C35 62 35 42 46 42 S57 70 66 70 S75 52 82 52" fill="none" stroke="#F3F4E9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="84" cy="52" r="6" fill="#F2AE88"/>
+</svg>
