@@ -20,7 +20,7 @@
 
 **从旧版更新**：直接安装新版 APK 覆盖旧版。应用 ID `app.quietdays` 与原签名保持一致，正常覆盖安装会保留本地记录。**不要先卸载旧版，也不要清除应用数据。** 也可以在 App「设置 → 更新」选择 Gitee，检查后在 App 内下载并调用系统安装程序。下载前可用同版 .sha256 文件核对 APK。
 
-**0.6.1 当前先从 GitHub 提供更新。Gitee 镜像请以[实际发行版列表](https://gitee.com/CM_acker/flight-log-updates/releases)为准。**
+**0.6.1 已在 GitHub 与 [Gitee](https://gitee.com/CM_acker/flight-log-updates/releases/tag/v0.6.1) 双渠道发布，安装包 SHA-256 一致。**
 
 ## ✨ 主要功能
 
