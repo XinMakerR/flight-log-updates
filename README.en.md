@@ -30,3 +30,7 @@ Use [Gitee Issues](https://gitee.com/CM_acker/flight-log-updates/issues), [GitHu
 
 [中文说明](README.md)
 Version 0.6.1 is available on GitHub and the [Gitee mirror](https://gitee.com/CM_acker/flight-log-updates/releases/tag/v0.6.1), with matching APK SHA-256 checksums. Full backup format 2 includes period data and remains compatible with older backups. See [period documentation](PERIODS.md).
+
+## 0.6.2
+
+[Download the latest release](https://github.com/XinMakerR/flight-log-updates/releases/tag/v0.6.2). Adjacent period dates merge without a dialog; bleeding details collapse on non-period dates. The calendar uses aligned legends, animated transitions and an underline for today. Brown activity colours are replaced by coral and rose.
