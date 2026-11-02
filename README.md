@@ -10,7 +10,8 @@
 
 | 版本 | 内容 | 下载 |
 | --- | --- | --- |
-| **[0.6.1](https://github.com/XinMakerR/flight-log-updates/releases/tag/v0.6.1)** · 当前版 | 经期记录与预测、连续痛感、历史补记；首页及活动表单交互升级 | [APK](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.6.1/flight-log-android.apk) · [SHA-256](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.6.1/flight-log-android.apk.sha256) |
+| **[0.6.2](https://github.com/XinMakerR/flight-log-updates/releases/tag/v0.6.2)** · 当前版 | 连续经期补记修复；详情自动收起；日历与配色优化 | [APK](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.6.2/flight-log-android.apk) · [SHA-256](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.6.2/flight-log-android.apk.sha256) |
+| [0.6.1](https://github.com/XinMakerR/flight-log-updates/releases/tag/v0.6.1) | 经期记录与预测、连续痛感、历史补记；首页及活动表单交互升级 | [APK](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.6.1/flight-log-android.apk) · [SHA-256](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.6.1/flight-log-android.apk.sha256) |
 | [0.5.7](https://github.com/XinMakerR/flight-log-updates/releases/tag/v0.5.7) | 新名称与图标；新导出文件使用「律迹」名称，兼容旧备份 | [APK](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.5.7/flight-log-android.apk) · [SHA-256](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.5.7/flight-log-android.apk.sha256) |
 | [0.5.6](https://github.com/XinMakerR/flight-log-updates/releases/tag/v0.5.6) | GitHub / Gitee 更新渠道；应用内下载与安装；多渠道反馈 | [APK](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.5.6/flight-log-android.apk) · [SHA-256](https://github.com/XinMakerR/flight-log-updates/releases/download/v0.5.6/flight-log-android.apk.sha256) |
 
@@ -53,3 +54,19 @@ Issues 公开可见。请描述 App 版本、操作步骤与实际现象，**不
 ---
 
 下载请以本仓库发行版为准；[Gitee 备用渠道](https://gitee.com/CM_acker/flight-log-updates/releases)请核对实际版本。这个仓库不包含应用源码。
+
+## 0.6.2 更新
+
+# 律迹 0.6.2 · 连续经期补记修复
+
+- 相邻日期的“月经来了”快捷操作直接合并同一次经期，不再弹出区间编辑或间隔错误。
+- 补记前一天会保留已记录的结束日；在结束的次日记录开始，会继续原经期。
+- 补齐两段中间的一天时自动衔接，原有每日详情保留，用户之间互不影响。
+- 未记录经期的日期收起流量、经血颜色和痛感，症状与备注常驻；详情随当天经期状态平滑展开、收起，不因误触弹窗。
+- 今日标识改为日期下方短横线；五个日历图例等宽对齐，模式切换时淡入滑动过渡。
+- 调整性生活的棕色系配色，改用珊瑚粉和蔷薇色，并同步筛选、符号和统计底色。
+- 日历预测计算移到日期循环外，避免重复计算。
+- 每日详情更新使用同一事务，避免快速编辑痛感、备注时覆盖刚写入的经期确认标记。
+
+版本0.6.2，内部版本17。包名与签名保持兼容，可覆盖安装；请勿先卸载或清除数据。
+
